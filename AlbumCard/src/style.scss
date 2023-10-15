@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+$mainColor: #f4dbd8;
+$secondaryColor: #bea8a7;
+$fontColor: black;
+
+.albumDiv {
+  ul {
+    list-style: none;
+  }
+}
+.albumDiv {
+  background-color: $mainColor;
+  border-radius: 5px 5px 0px 0px;
+  height: 228px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 5px 5px 0px 5px;
+  color: $fontColor;
+}
+img {
+  height: 100%;
+}
+
+.rate {
+  background-color: $secondaryColor;
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  width: 600px;
+  display: flex;
+  padding: 20px;
+  margin: 0px 5px 15px 5px;
+  align-items: center;
+  color: $fontColor;
+}
+.rate {
+  .logo {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+}
