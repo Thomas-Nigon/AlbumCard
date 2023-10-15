@@ -1,6 +1,7 @@
 import "../style.scss";
 
 function card({ artist, albumName, imgSrc, starE }) {
+  console.log(starE);
   return (
     <>
       <div className="albumDiv">

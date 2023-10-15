@@ -1,22 +1,23 @@
 import { useState } from "react";
 import Card from "./Components/card";
 import "./App.css";
-import makonnen from "./assets/makonen.png";
-import chinwax from "./assets/chinwax.png";
-import starE from "./assets/starE.png";
 
 function App() {
   const [count, setCount] = useState(0);
+  const starE =
+    "https://cdn.icon-icons.com/icons2/2768/PNG/512/star_icon_176624.png";
   const albumList = [
     {
       artist: "DJ Chinwax",
       albumName: "La débauche",
-      imgSrc: chinwax,
+      imgSrc:
+        "https://pepseeactus.com/wp-content/uploads/2023/09/DJ-Chinwax-la-debauche.jpeg",
     },
     {
       artist: "ILoveMakonnen",
       albumName: "I love Makonnen",
-      imgSrc: makonnen,
+      imgSrc:
+        "https://upload.wikimedia.org/wikipedia/en/f/ff/ILoveMakonnen_-_ILoveMakonnen.png",
     },
   ];
   return (
